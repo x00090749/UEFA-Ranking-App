@@ -1,0 +1,6 @@
+c:\users\daniel\documents\visual studio 2013\Projects\TeamAlgorithm\TeamAlgorithm\bin\Debug\TeamAlgorithm.exe.config
+c:\users\daniel\documents\visual studio 2013\Projects\TeamAlgorithm\TeamAlgorithm\bin\Debug\TeamAlgorithm.exe
+c:\users\daniel\documents\visual studio 2013\Projects\TeamAlgorithm\TeamAlgorithm\bin\Debug\TeamAlgorithm.pdb
+c:\users\daniel\documents\visual studio 2013\Projects\TeamAlgorithm\TeamAlgorithm\obj\Debug\TeamAlgorithm.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2013\Projects\TeamAlgorithm\TeamAlgorithm\obj\Debug\TeamAlgorithm.exe
+c:\users\daniel\documents\visual studio 2013\Projects\TeamAlgorithm\TeamAlgorithm\obj\Debug\TeamAlgorithm.pdb
