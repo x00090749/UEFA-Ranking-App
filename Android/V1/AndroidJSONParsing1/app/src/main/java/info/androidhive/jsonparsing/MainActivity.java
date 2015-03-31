@@ -111,10 +111,9 @@ public class MainActivity extends ListActivity {
 
 			if (jsonStr != null) {
 				try {
-					JSONObject jsonObj = new JSONObject(jsonStr);
-					
-					// Getting JSON Array node
-					countries = jsonObj.getJSONArray("Country"); //TAG_COUNTRIES
+                    JSONArray countries = new JSONArray(jsonStr);
+                    //JSONArray countries = new JSONArray(jsonStr);
+					//countries = jsonStr("Country"); //TAG_COUNTRIES
 
 					// looping through All Countries
 					for (int i = 0; i < countries.length(); i++) {
