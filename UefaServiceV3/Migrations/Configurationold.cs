@@ -1,9 +1,3 @@
-using System.IO;
-using System.Reflection;
-using System.Text;
-using System.Xml.Linq;
-using CsvHelper;
-using Microsoft.Ajax.Utilities;
 using UefaServiceV3.Models;
 
 namespace UefaServiceV3.Migrations
@@ -35,10 +29,6 @@ namespace UefaServiceV3.Migrations
             //    );
             //
 
-
-
-
-            
             context.Countries.AddOrUpdate(x => x.Id,
                                 new Country() { Id = 8, CountryName = "Northern Ireland", CountryCode = "NIR", Position = 47 },
                 new Country() { Id = 7, CountryName = "Wales", CountryCode = "WAL", Position = 48 },
@@ -63,38 +53,6 @@ namespace UefaServiceV3.Migrations
 
 
 
-            Assembly assembly = Assembly.GetExecutingAssembly();
-            string resourceName = "UefaServiceV3.App_Data.TeamRanking.csv";
-            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
-            {
-                using (StreamReader reader = new StreamReader(stream, Encoding.UTF8))
-                {
-                    CsvReader csvReader = new CsvReader(reader);
-                    csvReader.Configuration.WillThrowOnMissingField = false;
-                    var records = csvReader.GetRecords<TeamRanking>().ToArray();
-
-                    foreach (TeamRanking record in records)
-                    {
-                        context.TeamRankings.AddOrUpdate(record);
-                    }
-
-                }
-                context.SaveChanges();
-            }
-
-            /*var resourceName = "UefaServiceV3.App_Data.TeamRanking.xml";
-            var assembly = Assembly.GetExecutingAssembly();
-            var stream = assembly.GetManifestResourceStream(resourceName);
-            var xml = XDocument.Load(stream);
-            var teamRanking = xml.Element("TeamRanking")
-                .Elements("TeamRanking")
-                .Select(x => new TeamRanking
-                {
-                    TeamName = (string)x.Element("Position"),
-                }
-                ).ToArray();
-
-            context.TeamRankings.AddOrUpdate(c=>c.TeamName, teamRanking);*/
         }
     }
 }

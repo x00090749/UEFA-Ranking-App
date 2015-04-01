@@ -79,7 +79,7 @@ namespace UefaServiceV3.Migrations
                     }
 
                 }
-                context.SaveChanges();
+                //context.SaveChanges();
             }
 
             /*var resourceName = "UefaServiceV3.App_Data.TeamRanking.xml";
