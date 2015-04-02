@@ -1,0 +1,5 @@
+http://uefaservicev4.azurewebsites.net/
+
+http://uefaservicev4.azurewebsites.net/api/countries
+
+http://uefaservicev4.azurewebsites.net/api/teamrankings
