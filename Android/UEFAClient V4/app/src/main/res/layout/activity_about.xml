@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash_background">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This application has been designed to implement the UEFA Ranking system and provide all necessary elements a user requires who is concerned with anything to do with the UEFA Champions League Competition."
+                android:id="@+id/AboutParOneTextView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Such elements include Live data of the current Qualifying Rounds, Group Stage and also the Country Rankings and Team Rankings section."
+                android:id="@+id/AboutParTwoDescTextView"
+                android:textSize="18dp"
+                android:layout_below="@+id/AboutParOneTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is not an official UEFA application. All data used are the property of UEFA."
+                android:id="@+id/AboutParThreeTextView"
+                android:textSize="18dp"
+                android:layout_below="@+id/AboutParTwoDescTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you would like to provide feedback you can Email the developer of the application at this address: danielfulham1@yahoo.ie "
+                android:id="@+id/AboutParFourTextView"
+                android:textSize="18dp"
+                android:layout_below="@+id/AboutParThreeTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp" />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</RelativeLayout>

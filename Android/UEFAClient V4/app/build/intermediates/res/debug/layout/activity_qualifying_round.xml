@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TableRow
+                android:id="@+id/tableRowHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/HeaderTextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/roundOneTitle"
+                    android:padding="10dip"
+                    android:layout_gravity="center"
+                    />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/subHeaderTableRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dip">
+
+                    <TextView
+                        android:id="@+id/seededTeamsTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/seededTeamsTextView" />
+
+                    <TextView
+                        android:id="@+id/countryTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/countryTextView"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/coefficientTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/coefficientTextView"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/unseededTeamTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unseededTeamTextView"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/unseededCountryTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/countryTextView"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/unseededCoefficientTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/coefficientTextView"
+                        android:layout_weight="1" >
+
+                        <requestFocus />
+                    </TextView>
+
+
+                </TableRow>
+
+            <TableRow
+                android:id="@+id/testTableRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dip">
+
+                <TextView
+                    android:id="@+id/testTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/testTableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dip">
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            </TableRow>
+
+
+        </TableLayout>
+    </FrameLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Daniel/Documents/dev2/Android/AndroidJSONParsing1/app/src/main/res/layout/activity_qualifying_round.xml -->

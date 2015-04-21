@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Daniel/Documents/dev2/Android/AndroidJSONParsing1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">UEFA Ranking</string>
+    <string name="coefficientTextView">Coefficient</string>
+    <string name="countryRankingActivityButton">Country Ranking</string>
+    <string name="countryTextView">Country</string>
+    <string name="mainActivityButton">Main Activity</string>
+    <string name="qualifyingActivityButton">Qualifying Rounds</string>
+    <string name="roundFourActivityButton">4th Qualifying Round</string>
+    <string name="roundOneActivityButton">1st Qualifying Round</string>
+    <string name="roundOneTitle">1st Qualifying Round (Six Teams Enter)</string>
+    <string name="roundThreeActivityButton">3rd Qualifying Round</string>
+    <string name="roundTwoActivityButton">2nd Qualifying Round</string>
+    <string name="seededTeamsTextView">Seeded Teams</string>
+    <string name="teamRankingActivityButton">Team Ranking</string>
+    <string name="unseededTeamTextView">Unseeded Teams</string>
+</resources>

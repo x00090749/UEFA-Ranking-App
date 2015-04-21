@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.jsonparsing"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    
+    <!-- Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+
+            android:name="info.androidhive.jsonparsing.SplashActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Single List Item Activity -->
+        <activity
+            android:label="Contact"
+            android:name="info.androidhive.jsonparsing.SingleContactActivity" >
+        </activity>
+
+        <!-- Team Rankings Activity -->
+       <activity
+            android:label= "Team Rankings"
+            android:name = "info.androidhive.jsonparsing.TeamRankingActivity" >
+
+        </activity>
+
+        <!-- Round One Activity -->
+        <activity
+            android:label= "1st Qualifying Round"
+            android:name = "info.androidhive.jsonparsing.RoundOneActivity" >
+
+        </activity>
+
+        <activity
+            android:label= "Menu"
+            android:name = "info.androidhive.jsonparsing.MainMenuActivity" >
+
+        </activity>
+
+        <activity
+            android:label= "Qualifying Menu"
+            android:name = "info.androidhive.jsonparsing.MainMenuQualifyingActivity" >
+
+        </activity>
+
+        <activity
+            android:label= "Qualifying Menu"
+            android:name = "info.androidhive.jsonparsing.MainMenuQualifyingThreeActivity" >
+
+        </activity>
+
+        <activity
+            android:label= "UEFA RANKING SYSTEM"
+            android:name = "info.androidhive.jsonparsing.MainActivity" >
+
+        </activity>
+
+        <activity
+            android:label= "About"
+            android:name = "info.androidhive.jsonparsing.AboutActivity" >
+
+        </activity>
+
+        <activity
+            android:label= "Help"
+            android:name = "info.androidhive.jsonparsing.HelpActivity" >
+
+        </activity>
+    </application>
+
+
+
+
+</manifest>
