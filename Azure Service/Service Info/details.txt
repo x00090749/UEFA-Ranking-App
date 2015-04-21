@@ -1,0 +1,24 @@
+user1@contoso.com
+P_assw0rd1
+
+csvhelper
+Enable SSL.
+
+Google
+Client ID	
+48857413064-0c961e4mr1il94r4u491fqdti2nqm78v.apps.googleusercontent.com
+Email address	
+48857413064-0c961e4mr1il94r4u491fqdti2nqm78v@developer.gserviceaccount.com
+Client secret	
+PlIhWVdXDwioCa5PQASMtHsU
+
+
+            app.UseFacebookAuthentication(
+               appId: "416619351850002",
+               appSecret: "3910c6dc4391950cc02584403a0f3069");
+
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "48857413064-0c961e4mr1il94r4u491fqdti2nqm78v.apps.googleusercontent.com",
+                ClientSecret = "PlIhWVdXDwioCa5PQASMtHsU"
+            });
