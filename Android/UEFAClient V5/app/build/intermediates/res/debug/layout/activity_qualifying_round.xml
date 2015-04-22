@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TableRow
+                android:id="@+id/tableRowHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/HeaderTextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/roundOneTitle"
+                    android:textColor="#99CC00"
+                    android:padding="10dip"
+                    android:layout_gravity="center"
+                    />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/subHeaderTableRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip">
+
+                    <TextView
+                        android:id="@+id/seededTeamsTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:textColor="#99CC00"
+                        android:text="@string/seededTeamsTextView" />
+
+                    <TextView
+                        android:id="@+id/countryTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/countryTextView"
+                        android:textColor="#99CC00"
+                        android:layout_weight="1"
+                      />
+
+                    <TextView
+                        android:id="@+id/coefficientTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/coefficientTextView"
+                        android:textColor="#99CC00"
+                        android:layout_weight="1" />
+
+
+                </TableRow>
+
+            <TableRow
+                android:id="@+id/testTableRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+
+                <TextView
+                android:id="@+id/TeamName1TextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.8"/>
+
+                <TextView
+                    android:id="@+id/CountryCode1TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                android:id="@+id/TeamRanking1TextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" /></TableRow>
+
+            <TableRow
+                android:id="@+id/testTableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+
+                <TextView
+                    android:id="@+id/TeamName2TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8" />
+
+                <TextView
+                    android:id="@+id/CountryCode2TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/TeamRanking2TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" /></TableRow>
+
+            <TableRow
+                android:id="@+id/testTableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+
+                <TextView
+                    android:id="@+id/TeamName3TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8" />
+
+                <TextView
+                    android:id="@+id/CountryCode3TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/TeamRanking3TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" /></TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+
+             <TextView
+                android:id="@+id/unseededTeamTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/unseededTeamTextView"
+                 android:textColor="#99CC00"
+                 android:layout_weight="1.8" />
+            <TextView
+                        android:id="@+id/unseededCountryTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/countryTextView"
+                         android:textColor="#99CC00"
+                       android:layout_weight="1" />
+
+            <TextView
+                        android:id="@+id/unseededCoefficientTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/coefficientTextView"
+                         android:textColor="#99CC00"
+                        android:layout_weight="1" >
+
+                        <requestFocus />
+                    </TextView></TableRow>
+            <TableRow
+                android:id="@+id/testTableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+
+                <TextView
+                    android:id="@+id/TeamName4TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8" />
+
+                <TextView
+                    android:id="@+id/CountryCode4TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/TeamRanking4TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" /></TableRow>
+
+            <TableRow
+                android:id="@+id/testTableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+
+                <TextView
+                    android:id="@+id/TeamName5TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8" />
+
+                <TextView
+                    android:id="@+id/CountryCode5TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/TeamRanking5TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" /></TableRow>
+
+            <TableRow
+                android:id="@+id/testTableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+
+                <TextView
+                    android:id="@+id/TeamName6TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8" />
+
+                <TextView
+                    android:id="@+id/CountryCode6TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/TeamRanking6TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" /></TableRow>
+
+            <TableRow
+                android:id="@+id/testTableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" /></TableRow>
+
+
+        </TableLayout>
+    </FrameLayout></ScrollView>
+
+    </RelativeLayout><!-- From: file:/C:/Users/Daniel/Documents/dev2/Android/AndroidJSONParsing1/app/src/main/res/layout/activity_qualifying_round.xml -->

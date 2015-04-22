@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash_background">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualifying Rounds"
+                android:id="@+id/HelpParOneTextView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Qualifying Rounds section contains all preliminary round of the Champions League. With many European Leagues still on-going an ‘as it stands’ view is available for each round to provide the user with an understanding of how the current seedings look."
+                android:id="@+id/HelpParTwoDescTextView"
+                android:textSize="18dp"
+                android:layout_below="@+id/HelpParOneTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team Ranking"
+                android:id="@+id/HelpParThreeTextView"
+                android:textSize="18dp"
+                android:layout_below="@+id/HelpParTwoDescTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Team Ranking section contains a live view of UEFA’s current leaderboard of teams ranked in Europe."
+                android:id="@+id/HelpParFourTextView"
+                android:textSize="18dp"
+                android:layout_below="@+id/HelpParThreeTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country Ranking"
+                android:id="@+id/HelpParFiveTextView"
+                android:textSize="18dp"
+                android:layout_below="@+id/HelpParFourTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Country Ranking section contains a live view of UEFA’s current leaderboard of Countries ranked in Europe."
+                android:id="@+id/HelpParSixTextView"
+                android:textSize="18dp"
+                android:layout_below="@+id/HelpParFiveTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
