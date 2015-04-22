@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/RoundThreeChampionsActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="RoundThreeChampionsActivity"
+        android:text="Round Three Champions" />
+
+    <Button
+        android:id="@+id/RoundThreeLeagueActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="RoundThreeLeagueActivity"
+        android:text="Round Three League Route" />
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/Daniel/Documents/dev2/Android/AndroidJSONParsing1/app/src/main/res/layout/activity_qualifying_menu_three.xml -->

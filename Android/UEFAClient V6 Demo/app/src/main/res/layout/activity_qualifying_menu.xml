@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Champions League Qualifying Section"
+        android:id="@+id/QualifyingMenuTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:layout_marginTop="53dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All rounds are live and display the current standings with all European Leagues associated up to date!"
+        android:id="@+id/QualifyingMenuDescription"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/QualifyingMenuTitle"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select any round below"
+        android:id="@+id/QualifyingMenuPar"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/QualifyingMenuTitle"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/RoundOneActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="RoundOneActivity"
+        android:text="@string/roundOneActivityButton" />
+
+    <Button
+        android:id="@+id/RoundTwoActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="RoundTwoActivity"
+        android:text="@string/roundTwoActivityButton" />
+
+    <Button
+        android:id="@+id/RoundThreeActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MainMenuQualifyingThreeActivity"
+        android:text="@string/roundThreeActivityButton" />
+
+    <Button
+        android:id="@+id/RoundFourActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="RoundFourActivity"
+        android:text="@string/roundFourActivityButton" />
+
+    <Button
+        android:id="@+id/GroupStageActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GroupStageActivity"
+        android:text="Group Stage" />
+
+
+
+
+</LinearLayout>
