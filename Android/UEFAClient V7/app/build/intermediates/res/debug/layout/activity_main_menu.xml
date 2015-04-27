@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to the UEFA Ranking System App"
+                android:id="@+id/MenuTitle"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:layout_marginTop="53dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select from any options below"
+                android:id="@+id/MenuDescription"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/MenuTitle" android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/MainMenuQualifyingActivityButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/MenuDescription"
+                android:onClick="MainMenuQualifyingActivity"
+                android:text="@string/qualifyingActivityButton" />
+
+            <Button
+                android:id="@+id/TeamRankingActivityButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/MainMenuQualifyingActivityButton"
+                android:onClick="TeamRankingActivity"
+                android:text="@string/teamRankingActivityButton" />
+
+            <Button
+                android:id="@+id/CountryRankingActivityButton"
+                android:layout_width="match_parent"
+                android:layout_below="@id/TeamRankingActivityButton"
+                android:layout_height="wrap_content"
+                android:onClick="CountryRankingActivity"
+                android:text="@string/countryRankingActivityButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you require any help understanding what each section means visit the Help Section"
+                android:id="@+id/MenuExtra"
+                android:textSize="18dp"
+                android:layout_marginTop="46dp"
+                android:layout_below="@+id/CountryRankingActivityButton"
+                android:layout_centerHorizontal="true">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/HelpButton"
+                android:layout_width="match_parent"
+                android:layout_below="@id/MenuExtra"
+                android:layout_height="wrap_content"
+                android:onClick="HelpActivity"
+                android:text="Help" />
+
+            <Button
+                android:id="@+id/AboutButton"
+                android:layout_width="match_parent"
+                android:layout_below="@id/HelpButton"
+                android:layout_height="wrap_content"
+                android:onClick="AboutActivity"
+                android:text="About" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Daniel/Documents/dev2/Android/UEFARanking/app/src/main/res/layout/activity_main_menu.xml -->

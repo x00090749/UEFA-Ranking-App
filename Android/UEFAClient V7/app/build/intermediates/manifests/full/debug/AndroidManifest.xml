@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="daniel.uefaranking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <!-- Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="daniel.uefaranking.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Single List Item Activity -->
+        <activity
+            android:name="daniel.uefaranking.SingleContactActivity"
+            android:label="Country Ranking" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.SingleRoundOneActivity"
+            android:label="Single Round One" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.SingleRoundTwoActivity"
+            android:label="Single Round Two" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.SingleRoundThreeChampionsActivity"
+            android:label="Single Round Three Champions" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.SingleCountryRankingActivity"
+            android:label="Single Country Ranking" >
+        </activity>
+
+        <!-- Team Rankings Activity -->
+        <activity
+            android:name="daniel.uefaranking.TeamRankingActivity"
+            android:label="Team Rankings" >
+        </activity>
+
+        <!-- Country Rankings Activity -->
+        <activity
+            android:name="daniel.uefaranking.CountryRankingActivity"
+            android:label="Country Rankings" >
+        </activity>
+        <!-- Round One Activity -->
+        <activity
+            android:name="daniel.uefaranking.RoundOneActivity"
+            android:label="1st Qualifying Round" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.RoundTwoActivity"
+            android:label="2nd Qualifying Round" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.RoundThreeChampionsActivity"
+            android:label="Round Three Champions Route" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.RoundThreeLeagueActivity"
+            android:label="Round Three League Route" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.RoundFourLeagueActivity"
+            android:label="Round Four League Route" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.GroupStageActivity"
+            android:label="Group Stages" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.MainMenuActivity"
+            android:label="Menu" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.MainMenuQualifyingActivity"
+            android:label="Qualifying Menu" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.MainMenuQualifyingThreeActivity"
+            android:label="Round Three Qualifying Menu" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.MainActivity"
+            android:label="UEFA RANKING SYSTEM" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.AboutActivity"
+            android:label="About" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.HelpActivity"
+            android:label="Help" >
+        </activity>
+        <activity
+            android:name="daniel.uefaranking.Example"
+            android:label="Example" >
+        </activity>
+    </application>
+
+</manifest>
