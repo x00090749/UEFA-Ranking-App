@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace UefaServiceV9.Controllers.MVC.Sample_Data
+namespace UefaServiceV9.Controllers.MVC.Admin_Index
 {
     public class HomeController : Controller
     {
