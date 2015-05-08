@@ -30,7 +30,7 @@ namespace UefaServiceV9.Models
             return new ApplicationDbContext();
         }
 
-        public DbSet<Contact> Contacts { get; set; }
+        
 
         public DbSet<TeamRanking> TeamRankings { get; set; }
 

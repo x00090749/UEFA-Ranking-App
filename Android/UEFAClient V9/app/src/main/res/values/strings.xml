@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">UEFA Ranking</string>
+    <string name="roundOneTitle">1st Qualifying Round (Six Teams Enter)</string>
+    <string name="seededTeamsTextView">Seeded Teams</string>
+    <string name="countryTextView">Country</string>
+    <string name="coefficientTextView">Coefficient</string>
+    <string name="unseededTeamTextView">Unseeded Teams</string>
+    <string name="teamRankingActivityButton">Team Ranking</string>
+    <string name="roundOneActivityButton">1st Qualifying Round</string>
+    <string name="roundTwoActivityButton">2nd Qualifying Round</string>
+    <string name="roundThreeActivityButton">3rd Qualifying Round</string>
+    <string name="roundFourActivityButton">4th Qualifying Round</string>
+    <string name="mainActivityButton">Main Activity</string>
+
+    <string name="qualifyingActivityButton">Qualifying Rounds</string>
+    <string name="countryRankingActivityButton">Country Ranking</string>
+
+    <string name="AboutParTwoDescTextView">Such elements include Live data of the current Qualifying Rounds, Group Stage and also the Country Rankings and Team Rankings section.</string>
+    <string name="AboutParOneTextView">This application has been designed to implement the UEFA Ranking system and provide all necessary elements a user requires who is concerned with anything to do with the UEFA Champions League Competition.</string>
+    <string name="AboutParThreeTextView">This is not an official UEFA application. All data used are the property of UEFA.</string>
+    <string name="AboutParFourTextView">If you would like to provide feedback you can Email the developer of the application at this address: danielfulham1@yahoo.ie</string>
+    <string name="HelpParOneTextView">Qualifying Rounds</string>
+    <string name="HelpParTwoDescTextView">The Qualifying Rounds section contains all preliminary round of the Champions League. With many European Leagues still on-going an ‘as it stands’ view is available for each round to provide the user with an understanding of how the current seedings look.</string>
+    <string name="HelpParThreeTextView">Team Ranking</string>
+    <string name="HelpParFourTextView">The Team Ranking section contains a live view of UEFA’s current leaderboard of teams ranked in Europe.</string>
+    <string name="HelpParFiveTextView">Country Ranking</string>
+    <string name="HelpParSixTextView">The Country Ranking section contains a live view of UEFA’s current leaderboard of Countries ranked in Europe.</string>
+    <string name="MenuDescription">Select from any options below</string>
+    <string name="MenuExtra">If you require any help understanding what each section means visit the Help Section</string>
+    <string name="HelpButton">Help</string>
+    <string name="AboutButton">About</string>
+    <string name="QualifyingMenuTitle">Welcome to the Champions League Qualifying Section</string>
+    <string name="QualifyingMenuDescription">All rounds are live and display the current standings with all European Leagues associated up to date!</string>
+    <string name="QualifyingMenuPar">Select any round below</string>
+    <string name="GroupStageActivityButton">Group Stage</string>
+    <string name="RoundThreeChampionsActivityButton">Round Three Champions Route</string>
+    <string name="RoundThreeLeagueActivityButton">Round Three League Route</string>
+    <string name="splashTextView">Champions League Ranking</string>
+    <string name="Ranking">Position:</string>
+
+</resources>
