@@ -1,0 +1,54 @@
+﻿@model IEnumerable<UefaServiceV9.Models.RoundTwo>
+
+@{
+    ViewBag.Title = "2nd Qualifying Round";
+}
+
+<h2>@ViewBag.title</h2>
+
+
+<h2>Overview</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            <p>Position</p>
+        </th>
+
+        <th>
+            <p>Team Name</p>
+        </th>
+        <th>
+            <p>Country Code</p>
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ranking)
+        </th>
+        <th></th>
+    </tr>
+    @{ int i = 1; }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @i
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeamName)
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CountryCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ranking)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id })
+            </td>
+        </tr>
+        i++;
+    }
+
+</table>

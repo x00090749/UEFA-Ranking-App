@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UEFA Ranking</string>
+    <string name="roundOneTitle">1st Qualifying Round (Six Teams Enter)</string>
+    <string name="seededTeamsTextView">Seeded Teams</string>
+    <string name="countryTextView">Country</string>
+    <string name="coefficientTextView">Coefficient</string>
+    <string name="unseededTeamTextView">Unseeded Teams</string>
+    <string name="teamRankingActivityButton">Team Ranking</string>
+    <string name="roundOneActivityButton">1st Qualifying Round</string>
+    <string name="roundTwoActivityButton">2nd Qualifying Round</string>
+    <string name="roundThreeActivityButton">3rd Qualifying Round</string>
+    <string name="roundFourActivityButton">4th Qualifying Round</string>
+    <string name="mainActivityButton">Main Activity</string>
+
+    <string name="qualifyingActivityButton">Qualifying Rounds</string>
+    <string name="countryRankingActivityButton">Country Ranking</string>
+
+</resources>

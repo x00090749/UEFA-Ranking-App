@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Administrator Section";
+}
+<h2>@ViewBag.Title</h2>
+<h4>@ViewBag.Message</h4>
+
+<h2>Qualification Section</h2>
+
+<p>@Html.ActionLink("1st Qualifying Round", "Index", "RoundOnes")</p>
+
+<p>@Html.ActionLink("2nd Qualifying Round", "Index", "RoundTwoes")</p>
+
+<p>@Html.ActionLink("3rd Qualifying Round - Champions Route", "Index", "RoundThreeChampionsRoutes")</p>
+
+<p>@Html.ActionLink("3rd Qualifying Round - League Route", "Index", "RoundThreeLeagueRoutes")</p>
+
+<p>@Html.ActionLink("4th Qualifying Round - League Route", "Index", "RoundFourLeagueRoutes")</p>
+
+<h2>Group Stages Section</h2>
+<p>@Html.ActionLink("Group Stage", "Index", "Groupstages")</p>
+
+<h2>Team Rankings Section</h2>
+<p>@Html.ActionLink("Team Ranking", "Index", "TeamRankings")</p>
+
+<h2>Country Rankings Section</h2>
+<p>@Html.ActionLink("Country Ranking", "Index", "CountryRankings")</p>
